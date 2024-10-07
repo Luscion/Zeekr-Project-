@@ -1,3 +1,37 @@
 .text-columns {
     @include page-grid
+
+   
+}
+
+.col-1--span-4 {
+        font-family: 'Zain';
+        color: var(--color-dark-01);
+        font-size: 28px;
+        inline-size: 460px;
+        overflow-wrap: break-word;
+}
+
+
+.section-medium-text-grey {
+    color: var(--color-grey);
+}
+
+
+.col-8--span-5 {
+    font-family: 'Zain';
+    font-size: 18px;
+}
+
+.section-medium-text-grey {
+    max-width: 2px;
+}
+
+
+.book-a-test-text {
+    cursor: pointer;
+}
+
+.book-test-arrow-color {
+    color: var( --color-secondary);
 }
